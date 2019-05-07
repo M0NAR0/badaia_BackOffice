@@ -22,3 +22,7 @@ C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\BADAI
 C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\BADAIA_BackOffice.pdb
 C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\Vue\TypeLogement.g.cs
 C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\Vue\TypeLogement.baml
+C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\Vue\Accueil.g.cs
+C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\Vue\ListTypeLogement.g.cs
+C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\Vue\Accueil.baml
+C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\obj\Debug\Vue\ListTypeLogement.baml

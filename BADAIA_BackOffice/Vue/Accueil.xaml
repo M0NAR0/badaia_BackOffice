@@ -37,12 +37,12 @@
                     <RowDefinition Height="10"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.Children>
-                    <Button x:Name="Annonce" Content="Annonce" Grid.Row="0" Click="Annonce_Click" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
-                    <Button x:Name="Commentaire" Content="Commentaire" Grid.Row="2" Click="Commentaire_Click" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
-                    <Button x:Name="Reservation" Content="Réservation" Grid.Row="4" Click="Reservation_Click" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
+                    <Button x:Name="Annonce" Content="Annonce" Grid.Row="0" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
+                    <Button x:Name="Commentaire" Content="Commentaire" Grid.Row="2" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
+                    <Button x:Name="Reservation" Content="Réservation" Grid.Row="4" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
                     <Button x:Name="TypeLogement" Content="Type logement" Grid.Row="6" Click="TypeLogement_Click" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
-                    <Button x:Name="Utilisateur" Content="Utilisateur" Grid.Row="8" Click="Utilisateur_Click" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
-                    <Button x:Name="Deconnexion" Content="Déconnexion" Grid.Row="10" Click="Deconnexion_Click" Foreground="White" Background="#FFC80000" BorderBrush="#FF780400"></Button>
+                    <Button x:Name="Utilisateur" Content="Utilisateur" Grid.Row="8" Foreground="White" Background="#FF5564D2" BorderBrush="#FF5A64F0"></Button>
+                    <Button x:Name="Deconnexion" Content="Déconnexion" Grid.Row="10" Foreground="White" Background="#FFC80000" BorderBrush="#FF780400" Click="Deconnexion_Click"></Button>
                 </Grid.Children>
             </Grid>
             <Grid x:Name="ListShow" Grid.Row="2" Grid.Column="3">
@@ -65,9 +65,9 @@
                             <ColumnDefinition Width="Auto"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <Grid.Children>
-                            <Button x:Name="Creer" Content="Créer" Click="Creer_Click"  Grid.Column="1" Background="#FF32BE32" BorderBrush="#FF326E32" Foreground="White"></Button>
-                            <Button x:Name="Modifier" Content="Modifier" Click="Modifier_Click"  Grid.Column="3" Background="#FF5564D2" BorderBrush="#FF5A64F0" Foreground="White"></Button>
-                            <Button x:Name="Supprimer" Content="Supprimer" Click="Supprimer_Click"  Grid.Column="5" Background="#FFC80000" BorderBrush="#FF780000" Foreground="White"></Button>
+                            <Button x:Name="Creer" Content="Créer"  Grid.Column="1" Background="#FF32BE32" BorderBrush="#FF326E32" Foreground="White"></Button>
+                            <Button x:Name="Modifier" Content="Modifier"  Grid.Column="3" Background="#FF5564D2" BorderBrush="#FF5A64F0" Foreground="White"></Button>
+                            <Button x:Name="Supprimer" Content="Supprimer" Grid.Column="5" Background="#FFC80000" BorderBrush="#FF780000" Foreground="White"></Button>
                         </Grid.Children>
                     </Grid>
                 </Grid.Children>

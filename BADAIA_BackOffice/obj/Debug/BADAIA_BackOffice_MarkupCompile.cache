@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Morgan\source\repos\BADAIA_BackOffice\BADAIA_BackOffice\App.xaml
-2-2126469301
+4785089017
 
-14-1882255088
+201133685927
 20-675743281
-MainWindow.xaml;Vue\TypeLogement.xaml;
+MainWindow.xaml;Vue\Accueil.xaml;Vue\ListTypeLogement.xaml;Vue\TypeLogement.xaml;
 
 False
 

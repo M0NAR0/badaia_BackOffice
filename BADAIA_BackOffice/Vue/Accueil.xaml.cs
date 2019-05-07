@@ -36,5 +36,12 @@ namespace BADAIA_BackOffice.Vue
             this.MainList.Children.Add(new Vue.ListTypeLogement());
             this.ShowButtons.Visibility = Visibility.Visible;
         }
+
+        private void Deconnexion_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
+        }
     }
 }

@@ -28,8 +28,15 @@ namespace BADAIA_BackOffice
         private void connexion_Click(object sender, RoutedEventArgs e)
         {
             Modele.Donnees db = new Modele.Donnees();
-
-            //TODO
+            
+            VM.VueModeleUtilisateur userVM = new VM.VueModeleUtilisateur();
+            
+            if(userVM.tryToLogIn(Mail.Text, Password.Password) == true)
+            {
+                Vue.Accueil accueil = new Vue.Accueil();
+                accueil.Show();
+                this.Close();
+            }
         }
     }
 }

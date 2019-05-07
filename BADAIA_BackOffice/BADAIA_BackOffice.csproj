@@ -70,7 +70,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="VM\VueModeleAnnonce.cs" />
+    <Compile Include="VM\VueModeleCommentaire.cs" />
+    <Compile Include="VM\VueModeleReservation.cs" />
     <Compile Include="VM\VueModeleType_Logement.cs" />
+    <Compile Include="VM\VueModeleUtilisateur.cs" />
     <Compile Include="Vue\Accueil.xaml.cs">
       <DependentUpon>Accueil.xaml</DependentUpon>
     </Compile>
